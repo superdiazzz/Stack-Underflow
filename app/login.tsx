@@ -35,3 +35,5 @@ const Login = () => {
     </Formik>
   )
 }
+
+export default Login
