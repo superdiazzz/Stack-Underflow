@@ -3,53 +3,53 @@ import { Question } from "@/features/questions/question.types";
 export const mockQuestions: Question[] = [
   {
     id: "1",
-    title: "How to center a View in React Native?",
+    title: "Bagaimana cara membuat View ke tengah di React Native?",
     description:
-      "I'm struggling to center a View both vertically and horizontally. What is the correct flexbox setup?",
+      "Saya kesulitan membuat View berada di tengah secara vertikal dan horizontal. Bagaimana pengaturan flexbox yang benar?",
     status: "open",
     author: "nanda",
-    createdAt: new Date("2024-12-01T10:00:00").toISOString(),
+    createdAt: new Date("2026-02-01T10:00:00").toISOString(),
     comments: [
       {
         id: "c1",
-        content: "Use justifyContent and alignItems set to center.",
+        content: "Gunakan justifyContent dan alignItems yang diatur ke 'center'.",
         author: "alex",
-        createdAt: new Date("2024-12-01T11:00:00").toISOString(),
+        createdAt: new Date("2026-02-01T11:00:00").toISOString(),
       },
     ],
   },
   {
     id: "2",
-    title: "Difference between useState and useReducer?",
+    title: "Apa perbedaan antara useState dan useReducer?",
     description:
-      "When should I use useReducer instead of useState in React applications?",
+      "Kapan sebaiknya saya menggunakan useReducer alih-alih useState dalam aplikasi React?",
     status: "answered",
     author: "alex",
-    createdAt: new Date("2024-12-02T09:30:00").toISOString(),
+    createdAt: new Date("2026-02-02T09:30:00").toISOString(),
     comments: [
       {
         id: "c2",
         content:
-          "useReducer is better for complex state logic or multiple sub-values.",
+          "useReducer lebih baik digunakan untuk logika state yang kompleks atau yang memiliki banyak sub-nilai.",
         author: "nanda",
-        createdAt: new Date("2024-12-02T10:00:00").toISOString(),
+        createdAt: new Date("2026-02-02T10:00:00").toISOString(),
       },
       {
         id: "c3",
-        content: "For simple toggles or inputs, useState is enough.",
+        content: "Untuk toggle sederhana atau input biasa, useState sudah cukup.",
         author: "john",
-        createdAt: new Date("2024-12-02T10:15:00").toISOString(),
+        createdAt: new Date("2026-02-02T10:15:00").toISOString(),
       },
     ],
   },
   {
     id: "3",
-    title: "Best way to manage global state in React Native?",
+    title: "Cara terbaik mengelola global state di React Native?",
     description:
-      "What is the recommended way to handle global state in modern React Native apps?",
+      "Apa metode yang direkomendasikan untuk menangani global state di aplikasi React Native modern?",
     status: "closed",
     author: "john",
-    createdAt: new Date("2024-12-03T08:00:00").toISOString(),
+    createdAt: new Date("2026-02-03T08:00:00").toISOString(),
     comments: [],
   },
 ];

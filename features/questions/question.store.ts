@@ -1,7 +1,6 @@
 import { create } from 'zustand'
 import { Question } from './question.types'
 import { mockQuestions } from '@/constants/mockData'
-import { v4 as uuid } from 'uuid'
 
 interface QuestionState {
   questions: Question[]
@@ -20,7 +19,7 @@ export const useQuestionStore = create<QuestionState>((set) => ({
     set((state) => ({
       questions: [
         {
-          id: uuid(),
+          id: Date.now().toString(),
           title: data.title!,
           description: data.description!,
           status: 'open',
@@ -50,7 +49,7 @@ export const useQuestionStore = create<QuestionState>((set) => ({
               comments: [
                 ...q.comments,
                 {
-                  id: uuid(),
+                  id: Date.now().toString(),
                   content,
                   author,
                   createdAt: new Date().toISOString(),
