@@ -17,6 +17,10 @@ Aplikasi ini memungkinkan user untuk:
 
 Semua data disimpan di memory (tanpa backend).
 
+# VIDEO
+
+[![Watch the video](https://cdn.loom.com/sessions/thumbnails/25e81f13368449fc9f2b879a84056c27-b377d8b4e1c62ba9-full-play.gif#t=0.1)](https://www.loom.com/share/25e81f13368449fc9f2b879a84056c27)
+
 # Tech Stack
 
 - Expo SDK 54
@@ -138,12 +142,12 @@ stack-underflow/
 
 This project focuses on:
 
-Clean architecture
+- Clean architecture
 
-Separation of concerns
+- Separation of concerns
 
-Feature-based folder structure
+- Feature-based folder structure
 
-State management best practices
+- State management best practices
 
-Scalable routing using Expo Router
+- Scalable routing using Expo Router
