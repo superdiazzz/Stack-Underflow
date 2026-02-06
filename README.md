@@ -17,7 +17,9 @@ Aplikasi ini memungkinkan user untuk:
 
 Semua data disimpan di memory (tanpa backend).
 
-# VIDEO
+# VIDEO 
+
+Klik untuk video lebih panjang
 
 [![Watch the video](https://cdn.loom.com/sessions/thumbnails/25e81f13368449fc9f2b879a84056c27-b377d8b4e1c62ba9-full-play.gif#t=0.1)](https://www.loom.com/share/25e81f13368449fc9f2b879a84056c27)
 
